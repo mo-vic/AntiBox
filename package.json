@@ -1,0 +1,33 @@
+{
+  "name": "anti-box",
+  "displayName": "Anti box",
+  "version": "0.0.1",
+  "description": "A plugin that replaces your id and avatar in bbs.uestc.edu.cn",
+  "author": "movic",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "plasmo": "0.72.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.235",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.2",
+    "@types/react-dom": "18.2.3",
+    "postcss": "8.4.23",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4",
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
