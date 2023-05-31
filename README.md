@@ -4,9 +4,29 @@
 
 
 
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+## Introduction
+
+为了防止Uestcer在图书馆，教学楼等地方水河畔时被开盒，movic特别开发了AntiBox浏览器插件。
+
+AntiBox基于[Plasmo](https://www.plasmo.com/)框架，支持Edge、Chrome、Firefox、Safari等多种主流浏览器。
+
+![AntiBox](./image/AntiBox.png)
+
+
+
+## Installation
+
+1. Install `pnpm` follow [this tutorial](https://www.pnpm.cn/installation)
+
+2. Install or upgrade `Node.js` by following steps:
+   1. Download from: https://nodejs.org/en
+   2. Install
+
+
 
 ## Getting Started
+
+This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
 First, run the development server:
 
@@ -22,6 +42,8 @@ You can start editing the popup by modifying `popup.tsx`. It should auto-update 
 
 For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 
+
+
 ## Making production build
 
 Run the following:
@@ -33,6 +55,16 @@ npm run build
 ```
 
 This should create a production bundle for your extension, ready to be zipped and published to the stores.
+
+To build with a specific target:
+
+```bash
+pnpm build --target=firefox-mv2
+```
+
+See [what are the officially supported browser targets](https://docs.plasmo.com/framework/workflows/faq#what-are-the-officially-supported-browser-targets) for all available targets.
+
+
 
 ## Submit to the webstores
 
