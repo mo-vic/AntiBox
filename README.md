@@ -12,6 +12,8 @@ AntiBox基于[Plasmo](https://www.plasmo.com/)框架，支持Edge、Chrome、Fir
 
 ![AntiBox](./image/AntiBox.png)
 
+Note：如果你使用的是Safari浏览器，那使用Plasmo构建插件的步骤可能比较繁琐。对`safari-mv3`的支持目前Plasmo官方还在开发中。[MichaelTan](https://bbs.uestc.edu.cn/home.php?mod=space&uid=225494)老哥开发了一个适用于Safari浏览器的版本，有需要的可以看看哟：https://greasyfork.org/en/scripts/467563-mask-on-riverside
+
 
 
 ## Installation
